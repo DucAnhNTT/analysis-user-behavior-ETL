@@ -7,14 +7,16 @@ This project aims to analyze the usage history of users who have terminated thei
 1: Parsing Logs to Determine Attributes:
 
 Parse logs to identify the following attributes:
-MAC: userID
-SessionMainMenu: the time when the user starts using the service
-AppName: the type of app the user is using
-LogID: log ID
-Event: user action
-ItemID: ID of the program the user viewed
-RealTimePlaying: duration of user viewing.
+- MAC: userID
+- SessionMainMenu: the time when the user starts using the service
+- AppName: the type of app the user is using
+- LogID: log ID
+- Event: user action
+- ItemID: ID of the program the user viewed
+- RealTimePlaying: duration of user viewing.
+
 Output: A new log set with a row-column format. Each row corresponds to a log entry, and each column corresponds to an attribute. Columns are separated by tab characters.
+
 2: Combining user_info.txt and Parsed Data:
 
 Combine the user_info.txt file with the parsed dataset to analyze the characteristic usage behaviors of these users.
